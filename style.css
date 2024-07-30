@@ -206,7 +206,7 @@ nav  li {
     position: relative;
     width: 85%;
     margin: 0 auto;
-    height: auto;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,7 +330,6 @@ nav  li {
     width: 100%;
     bottom: 0;
     justify-content: center;
-    background-color: ;
     font-weight: 0px;
   }
   h4 {
@@ -409,9 +408,10 @@ nav  li {
     }
 
     #variedades {
-        width: 93vw;
+        width: 100vw;
         margin: 0 auto;
     }
+   
     #caixa {
         width: 100%;
     }
