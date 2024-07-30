@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Studio_Antero</title>
+</head>
+
+
+<body>
+
+    <div id="fundo">
+
+        <header>
+
+
+
+            <nav>
+
+                <a href="#" id="logo">
+                    <img src="imagem/logo.png" alt="">
+
+                </a>
+                <ul id="menu">
+                    <li>
+                        <a href="#sobre" class="lista">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#variedades" class="lista">Variedades</a>
+                    </li>
+                    <li>
+                        <a href="#avaliacoes" class="lista">Avaliações</a>
+                    </li>
+                    <li>
+                        <a href="#localizacao" class="lista">Localizaçao</a>
+                    </li>
+                </ul>
+
+                <div id="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+
+        </header>
+
+        <section id="sobre">
+
+            <h2>SOBRE</h2>
+
+            <div id="fotos-sobre">
+                <img id="img1" src="imagem/img1.png" alt="">
+                <p>
+                    A extensão de cílios é uma maneira eficaz e transformadora de
+                    elevar a autoestima de qualquer mulher. Proporciona um olhar
+                    deslumbrante, economiza tempo e esforço na rotina de beleza e,
+                    acima de tudo, aumenta a confiança pessoal.
+                </p>
+            </div>
+        </section>
+    </div>
+
+
+    <main>
+
+        <section id="variedades">
+
+            <h2>VARIEDADES</h2>
+
+            <div id="caixa">
+                <swiper-container class="myswiper" pagination="false" effect="coverflow" grab-cursor="true"
+                    centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50"
+                    coverflow-effect-stretch="0" coverflow-effect-depth="200" coverflow-effect-modifier="1"
+                    coverflow-effect-slide-shadows="true">
+                    <swiper-slide class="swiper">
+                        <div class="card">
+                            <div class="slider-texto">
+                                <h3>Brasileiro</h3>
+                                <img src="imagem/brasileiro.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    É o fio sintético que tem um formato de “Y”, 
+                                    que proporciona um visual mais volumoso. Nem 
+                                    exagerado, nem tão discreto, é ideal para quem 
+                                    deseja um meio termo!
+                                    Duração: 15 a 20 dias
+                                </p>
+
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="swiper">
+                        <div class="card">
+                            <div class="slider-texto">
+                                <h3>Russo</h3>
+                                <img src="imagem/russo.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    O volume russo é um procedimento 
+                                    que montamos na hora em formato
+                                    de leque, proporcionando um 
+                                    visual mais volumoso e 
+                                    sofisticado. São utilizados
+                                    de 3 a 7 fios na montagem para
+                                    a colocação em um único fio.
+                                     Duração de 15 a 20 dias
+                                </p>
+
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="swiper">
+                        <div class="card">
+                            <div class="slider-texto">
+                                <h3>Light</h3>
+                                <img src="imagem/light.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Esse cílios é indicado para quem 
+                                    gosta de um olhar mais preenchido
+                                    mais sem perder a sua
+                                    naturalidade, pois os fios são
+                                    finos e sofisticados!
+                                    Duração de 15 a 20 dias
+                                </p>
+
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="swiper">
+                        <div class="card">
+                            <div class="slider-texto">
+                                <h3>Glamour</h3>
+                                <img src="imagem/glamour.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    O efeito Glamour deixa o olhar mais 
+                                    preenchido, delicado, leve e volumoso! 
+                                    Ele consiste em 5 fios entrelaçados em 
+                                    uma mesma base.
+                                    Duração de 15 a 20 dias
+                                </p>
+
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="swiper">
+                        <div class="card">
+                            <div class="slider-texto">
+                                <h3>Egípcio</h3>
+                                <img src="imagem/egipicio.jpg" alt="">
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Tem como principal característica
+                                     serem 3 fios em 1! Deixam o 
+                                     olhar preenchido, delicado e 
+                                     apaixonante. Duração de 15 a 20 dias.
+                                </p>
+
+                            </div>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
+                <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+            </div>
+        </section>
+
+        <section id="avaliacoes">
+            <div id="prints">
+                <h2>CLIENTES</h2>
+                <img src="imagem/cliente.png" alt="">
+            </div>
+        </section>
+
+        <section id="localizacao">
+
+            <h2>LOCALIZAÇÃO</h2>
+
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657
+                .0197652416778!2d-46.758909!3d-23.567733600000004!2m3!1f0!2f0!3f0!3m2!1
+                i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55e8ce974de5%3A0xd82554861b2226c0!2
+                sR.%20Jorge%20Ward%2C%20288%20-%20Rio%20Pequeno%2C%20S%C3%A3o%20Paulo%
+                20-%20SP%2C%2005386-160!5e0!3m2!1spt-BR!2sbr!4v1722304860970!5m2!1spt
+                -BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen=""
+                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer">
+
+            <div id="redes-sociais">
+    
+              <h3>Redes Sociais</h3>
+    
+    
+              <div id="icones">
+                <a href="https://instagram.com/lash_antero?igshid=OGQ5ZDc2ODk2ZA%3D%3D" class="icone_link" id="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+        
+                </a>
+        
+                <a href="#" class="icone_link" id="facebook">
+                  <i class="fa-brands fa-facebook-f"></i>
+    
+                </a>
+        
+                <a href="https://api.whatsapp.com/message/BE5UUSRCR2LGJ1?autoload=1&app_absent=0" class="icone_link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp" color="wrhite"></i>
+    
+                </a>
+              </div>
+            </div>
+
+            <div id="copy">
+                <h4>&copy; 2023 Biel_Kawan</h4>
+              </div>
+
+    </footer>
+
+    <script src="mobile.js"></script>
+
+</body>
+
+</html>
