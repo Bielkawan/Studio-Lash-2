@@ -24,3 +24,4 @@ document.querySelectorAll(".nav-list").forEach((n) =>
     const elements = document.querySelectorAll(".box")
     
     elements.forEach(el => intersectObserver.observe(el))
+
