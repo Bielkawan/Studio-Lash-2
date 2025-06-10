@@ -215,14 +215,15 @@ nav li {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: auto;
   width: 90%;
   margin: 0 auto;
   border-bottom: 1px solid black;
+  margin-bottom: 80px;
 }
 #vari {
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
-
 swiper-slide {
   flex-direction: column;
   overflow: unset;
@@ -256,8 +257,8 @@ swiper-slide p {
 }
 swiper-container {
   border-radius: 4%;
-  width: 350px;
-  height: 650px;
+  width: 80%;
+  height: 475px;
 }
 swiper-container::-webkit-scrollbar {
   display: none;
@@ -334,28 +335,13 @@ swiper-slide:nth-child(10n) {
   align-content: flex-start;
   margin: 0 auto;
 }
-#prints #img1 {
-  height: 160px;
-}
-#prints2 #img4 {
-  height: 650px;
-  overflow: unset;
-}
-#prints2 #img3 {
-  height: 250px;
-}
-#prints1 #img2 {
-  display: flex;
-  animation: left 2s ease-in-out;
-  height: 200px;
-}
-
 #avaliacoes img {
   display: flex;
   align-items: center center;
+  position: relative;
   margin: 0 auto;
   height: 180px;
-  width: 100%;
+  width: 90%;
   margin: 20px;
   flex-wrap: wrap;
   border-radius: 25px;
@@ -364,6 +350,21 @@ swiper-slide:nth-child(10n) {
   animation-timeline: scroll();
   animation-range: entry 0;
 }
+#prints #img1 {
+  height: 140px;
+}
+#prints2 #img4 {
+  height: 590px;
+  overflow: hidden;
+}
+#prints2 #img3 {
+  height: 230px;
+}
+#prints1 #img2 {
+  height: 180px;
+}
+
+
 
 #localizacao {
   display: flex;
