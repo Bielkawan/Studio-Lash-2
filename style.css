@@ -257,7 +257,7 @@ swiper-slide p {
 }
 swiper-container {
   border-radius: 4%;
-  width: 80%;
+  width: 72%;
   height: 475px;
 }
 swiper-container::-webkit-scrollbar {
