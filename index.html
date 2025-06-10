@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
-    <title>Studio_Antero</title>
+ <title>Studio_Antero</title>
 
 </head>
 
@@ -37,7 +40,7 @@
                         <a href="#avaliacoes" class="lista">Avaliações</a>
                     </li>
                     <li class="box from-right">
-                        <a href="#localizacao" class="lista">Localizaçao</a>
+                        <a href="#localizacao" class="lista">Localização</a>
                     </li>
                 </ul>
 
@@ -52,7 +55,7 @@
    
           
 
-</div> 
+       </div> 
 
     <main>
         <section id="sobre">
@@ -89,119 +92,90 @@
                 </span>
                 <span class="BG"></span>
               </button>
-    
+             
         </section>
+
         <section id="variedades">
+
+    <div class="box from-left" id="vari">
         
-            <h2 class="box from-left">VARIEDADES</h2>
+        <h2>Variedades</h2>
 
-            
-                <swiper-container class="myswiper" pagination="false" effect="coverflow" grab-cursor="true"
-                    centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50"
-                    coverflow-effect-stretch="0" coverflow-effect-depth="200" coverflow-effect-modifier="1"
-                    coverflow-effect-slide-shadows="true">
-                    <swiper-slide class="swiper">
-                        <div class="card  box from-right">
-                            <div class="slider-texto">
-                                <h3>Brasileiro</h3>
-                                <img src="imagem/brasileiro.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <p>
-                                    É o fio sintético que tem um formato de “Y”, 
-                                    que proporciona um visual mais volumoso. Nem 
-                                    exagerado, nem tão discreto, é ideal para quem 
-                                    deseja um meio termo!
-                                    Duração: 15 a 20 dias
-                                </p>
+    <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+        <swiper-slide id="swiper1">
+            <img src="imagem/brasileiro.jpg" alt="">
+            <h4>Brasileiro</h4>
+            <p>
+                É o fio sintético que tem um formato de “y”, que proporciona um visual mais volumoso. Nem exagerado, nem tão discreto, é ideal para quem deseja um meio termo! Duração: 15 a 20 dias
+            </p>
 
-                            </div>
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide class="swiper">
-                        <div class="card">
-                            <div class="slider-texto">
-                                <h3>Russo</h3>
-                                <img src="imagem/russo.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <p>
-                                    O volume russo é um procedimento 
-                                    que montamos na hora em formato
-                                    de leque, proporcionando um 
-                                    visual mais volumoso e 
-                                    sofisticado. São utilizados
-                                    de 3 a 7 fios na montagem para
-                                    a colocação em um único fio.
-                                     Duração de 15 a 20 dias
-                                </p>
+        </swiper-slide>
 
-                            </div>
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide class="swiper">
-                        <div class="card">
-                            <div class="slider-texto">
-                                <h3>Light</h3>
-                                <img src="imagem/light.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Esse cílios é indicado para quem 
-                                    gosta de um olhar mais preenchido
-                                    mais sem perder a sua
-                                    naturalidade, pois os fios são
-                                    finos e sofisticados!
-                                    Duração de 15 a 20 dias
-                                </p>
+        <swiper-slide id="swiper2">
+            <img src="imagem/egipicio.jpg" alt="">
+            <h4>Egípicio</h4>
+            <p>
+                É o fio sintético que tem um formato de “y”, que proporciona um visual mais volumoso. Nem exagerado, nem tão discreto, é ideal para quem deseja um meio termo! Duração: 15 a 20 dias
+            </p>
+        </swiper-slide>
+        <swiper-slide id="swiper3">
+            <img src="imagem/russo.jpg" alt="">
+            <h4>Russo</h4>
+            <p>
+                O volume russo é um procedimento que montamos na hora em formato de leque, proporcionando um visual mais volumoso e sofisticado. São utilizados de 3 a 7 fios na montagem para a colocação em um único fio.
+Duração de 15 a 20 dias
+            </p>
+        </swiper-slide>
+        <swiper-slide id="swiper4">
+            <img src="imagem/glamour.jpg" alt="">
+            <h4>Glamour</h4>
+            <p>
+                O efeito Glamour deixa o olhar mais preenchido, delicado, leve e volumoso. Ele consiste em 5 fios
+entrelaçados em uma mesma base.
+Duração de 15 a 20 dias
+            </p>
+        </swiper-slide>
+        
+        <swiper-slide id="swiper5">
+            <img src="imagem/fox.jpg" alt="">
+            <h4>Fox</h4>
+            <p>
+                O ‘efeito fox’ ou ‘fox eyes’ refere-se a um estilo de extensão de cílios que busca criar um olhar mais alongado e ‘puxado’ para fora, semelhante ao de uma raposa.
+            </p>
+        </swiper-slide>
+        <swiper-slide id="swiper6">
+            <img src="imagem/delineado.jpg" alt="">
+            <h4>Delineado</h4>
+            <p>
+                O efeito delineado nos cílios é uma técnica que oferece um acabamento marcante e sofisticado, simulando o efeito de um delineador. Essa abordagem cria uma linha mais escura na base dos cílios, realçando o olhar de maneira delicada.
+            </p>
+        </swiper-slide>
+        <swiper-slide id="swiper7">
+             <img src="imagem/luxo.jpg" alt="">
+            <h4>Luxo</h4>
+            <p>
+                O Cílios 6D, também conhecidos como volume luxo, proporcionam um efeito de volume intenso e marcante, criando um visual impressionante e luxuoso.
+            </p>
+        </swiper-slide>
+        <swiper-slide id="swiper8">
+            <img src="imagem/light.jpg" alt="">
+            <h4>Light</h4>
+            <p>
+                Esse cílios é indicado para quem
+gosta de um olhar mais preenchido mais sem perder a sua naturalidade, pois os fios são finos e sofisticados!
+Duração de 15 a 20 dias
+            </p>
+        </swiper-slide>
+      </swiper-container>
 
-                            </div>
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide class="swiper">
-                        <div class="card">
-                            <div class="slider-texto">
-                                <h3>Glamour</h3>
-                                <img src="imagem/glamour.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <p>
-                                    O efeito Glamour deixa o olhar mais 
-                                    preenchido, delicado, leve e volumoso! 
-                                    Ele consiste em 5 fios entrelaçados em 
-                                    uma mesma base.
-                                    Duração de 15 a 20 dias
-                                </p>
-
-                            </div>
-                        </div>
-                    </swiper-slide>
-                    <swiper-slide class="swiper">
-                        <div class="card">
-                            <div class="slider-texto">
-                                <h3>Egípcio</h3>
-                                <img src="imagem/egipicio.jpg" alt="">
-                            </div>
-                            <div class="content">
-                                <p>
-                                    Tem como principal característica
-                                     serem 3 fios em 1! Deixam o 
-                                     olhar preenchido, delicado e 
-                                     apaixonante. Duração de 15 a 20 dias.
-                                </p>
-
-                            </div>
-                        </div>
-                    </swiper-slide>
-                </swiper-container>
-                <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-
-    
+    </div>
         </section>
+        
+
 
         <section id="avaliacoes">
 
-            <h2  class="box from-left">CLIENTES</h2>
+            <h2  class="box from-left">CLIENTES SATISFEITAS</h2>
 
             <div id="prints">  
                 <img class="box from-right" id="img1" src="imagem/cmt1.jpg" alt="">
@@ -217,6 +191,7 @@
         <section id="localizacao">
 
             <h2>LOCALIZAÇÃO</h2>
+            
 
             <div id="mapa">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657
@@ -259,10 +234,9 @@
             <div id="copy">
                 <h4>&copy; 2023 Biel_Kawan</h4>
               </div>
-
     </footer>
-
     <script src="mobile.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
 </body>
 
